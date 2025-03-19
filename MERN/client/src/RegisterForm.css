@@ -1,0 +1,90 @@
+
+/* Container Styling */
+.form-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+  color: #005bb5;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #004080;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0073e6;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #005bb5;
+  box-shadow: 0 0 5px #005bb5;
+}
+
+/* Submit Button Styling */
+.submit-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0073e6;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #005bb5;
+}
+
+/* Table Styling */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #0073e6;
+  padding: 10px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #e3f2fd;
+  color: #004080;
+}
+
+.data-table tr:hover {
+  background-color: #bbdefb;
+}
